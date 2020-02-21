@@ -1,0 +1,5 @@
+The purpose of this graph was to decide the Angle at which we were to throw the shagai from, the problems here were the variation of weights, now with the help of our Simscape model of Shagai projection, we were able to determine the appropriate angle to launch the Shagai at.
+What the Graph means:
+The x-axis denotes the angle at which we launched the shagai, the y-axis denotes the result attained after falling in the landing zone.
+The graph has 5 different lines, each being a shagai of different mass.
+We then deduce for observation that the safe zone to launch the shagai is the period 11.4 to 13.2 degrees, since, it is the point wherin the Shagai lands on 50 irrespective of the weight.
