@@ -60,7 +60,7 @@ def mouse(event,x,y,z,w):
         if counter == 1:
             pos1=(y,x)
             pos1_flip = (x,y)
-            
+
             # final_coor.append(pos1_flip)
             final_coor.insert(0,pos1_flip)
             

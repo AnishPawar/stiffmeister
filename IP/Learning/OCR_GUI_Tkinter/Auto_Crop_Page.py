@@ -25,6 +25,8 @@ closing = cv2.morphologyEx(th4,cv2.MORPH_CLOSE,np.ones((11,11)),iterations= 1)
 
 canny = cv2.Canny(closing,0,200,3)
 
+edges = cv2.bitwise_not(canny)
+
 # Finding area of image
 img_area = new_img.shape[0]*new_img.shape[1]
 

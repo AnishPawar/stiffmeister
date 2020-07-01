@@ -108,6 +108,3 @@ destroy_btn = tk.Button(canvas,text="Close \n Windows",padx=5,pady=10,bg="#263D4
 destroy_btn.place(relx=0.85,rely=0.87)
 
 root.mainloop()
-
-
-
