@@ -46,12 +46,14 @@ import numpy as np
 
 # cap.release()
 
-disparity_map = cv2.imread('Disparity_Map.png')
+disparity_map = cv2.imread('Disparity_Map_Updated.png')
 Left = cv2.imread('Left_Cam.jpg')
 Right = cv2.imread('Right_Cam.jpg')
 cv2.imshow('DM',disparity_map)
-median_blur = cv2.medianBlur(disparity_map,3)
-cv2.imshow('closed',median_blur)
+# median_blur = cv2.medianBlur(disparity_map,3)
+# cv2.imshow('median',median_blur)
+opened = cv2.morphologyEx(disparity_map,cv2.MORPH_OPEN,np.ones((5,5)))
+cv2.imshow('opened',opened)
 cv2.imshow('Left',Left)
 cv2.imshow('Right',Right)
 cv2.waitKey(0)
