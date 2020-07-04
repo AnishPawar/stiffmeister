@@ -1,0 +1,8 @@
+prefix=/home/anishpawar/Git/stiffmeister/ROS/catkin_ws/devel
+
+Name: turtle_mover
+Description: Description of turtle_mover
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
