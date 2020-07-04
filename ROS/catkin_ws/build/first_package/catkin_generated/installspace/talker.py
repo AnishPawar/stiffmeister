@@ -20,3 +20,6 @@ if __name__ == '__main__':
         talker()
     except rospy.ROSInterruptException:
         pass
+
+
+    
