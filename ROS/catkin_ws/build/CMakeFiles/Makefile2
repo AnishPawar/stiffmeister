@@ -917,6 +917,24 @@ clean: first_package/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory messaging
+
+# Convenience name for "all" pass in the directory.
+messaging/all:
+
+.PHONY : messaging/all
+
+# Convenience name for "clean" pass in the directory.
+messaging/clean:
+
+.PHONY : messaging/clean
+
+# Convenience name for "preinstall" pass in the directory.
+messaging/preinstall:
+
+.PHONY : messaging/preinstall
+
+#=============================================================================
 # Directory level rules for directory turtle_mover
 
 # Convenience name for "all" pass in the directory.

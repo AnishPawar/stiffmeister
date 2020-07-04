@@ -296,6 +296,24 @@ first_package_BINARY_DIR:STATIC=/home/anishpawar/Git/stiffmeister/ROS/catkin_ws/
 //Value Computed by CMake
 first_package_SOURCE_DIR:STATIC=/home/anishpawar/Git/stiffmeister/ROS/catkin_ws/src/first_package
 
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/melodic/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/melodic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/melodic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/melodic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/melodic/share/genpy/cmake
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/anishpawar/Git/stiffmeister/ROS/catkin_ws/build/gtest/googlemock
 
@@ -348,8 +366,17 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/librostime.so
 
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
+
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
+
+//Value Computed by CMake
+messaging_BINARY_DIR:STATIC=/home/anishpawar/Git/stiffmeister/ROS/catkin_ws/build/messaging
+
+//Value Computed by CMake
+messaging_SOURCE_DIR:STATIC=/home/anishpawar/Git/stiffmeister/ROS/catkin_ws/src/messaging
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
