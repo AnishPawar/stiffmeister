@@ -15,7 +15,7 @@ def speed():
         
         twist.angular.x = 0.0
         twist.angular.y = 0.0
-        twist.angular.z = 1.8
+        twist.angular.z = 2.0
 
         rospy.loginfo(twist)
         pub.publish(twist)
