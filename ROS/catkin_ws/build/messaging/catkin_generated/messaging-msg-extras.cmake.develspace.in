@@ -1,2 +1,0 @@
-set(messaging_MESSAGE_FILES "/home/anishpawar/Git/stiffmeister/ROS/catkin_ws/src/messaging/msg/custom_message.msg")
-set(messaging_SERVICE_FILES "")

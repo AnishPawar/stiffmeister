@@ -1,2 +1,0 @@
-set(messaging_MESSAGE_FILES "msg/custom_message.msg")
-set(messaging_SERVICE_FILES "")
