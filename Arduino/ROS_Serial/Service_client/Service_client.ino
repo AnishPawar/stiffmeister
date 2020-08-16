@@ -1,5 +1,6 @@
 #include <ros.h>
 #include <rospy_tutorials/AddTwoInts.h>
+#include <gazebo_msgs/ApplyJointEffort.h>
 //#include <service_client.h>
 
 
