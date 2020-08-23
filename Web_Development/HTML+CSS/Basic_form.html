@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form>
+            <h1>Register</h1>
+            <label for="firstname">First Name:</label>
+            <input id ="firstname"type="name" required>
+            <label for="lastname">Last Name:</label>
+            <input id ="lastname"type="name" required>
+            <p></p>
+            <label for="Male">Male</label>
+            <input id = "Male" type="radio" value="gender" name="Gender">
+            <label for="Female">Female</label>
+            <input id = "Female" type="radio" value="gender" name="Gender">
+            <label for="Other">Other</label>
+            <input id = "Other" type="radio" value="gender" name="Gender">
+            <p></p>
+            <label for="email">Email:</label>
+            <input id ="email"type="email" required>
+            <label for="password">Password:</label>
+            <input id ="password"type="password" required minlength="5" maxlength="10"> 
+            <p></p>
+            <label>Birthday</label>
+            <select name="Date">
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+            </select>
+            <select name="Month">
+                <option value="Jan">Jan</option>
+                <option value="Feb">Feb</option>
+                <option value="March">March</option>
+            </select>
+            <select name="Year">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+            </select>
+            <p></p>
+            <input type="submit">
+        </form>
+    </body>
+</html>
