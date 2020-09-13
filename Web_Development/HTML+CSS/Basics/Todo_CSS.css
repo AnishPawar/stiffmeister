@@ -1,0 +1,12 @@
+body{
+    background: palegoldenrod;
+    }
+li  {
+    border:2px solid red;
+    }
+#Strawberries{
+    background-color: bisque;
+}
+.Special{
+    text-decoration: line-through;
+}

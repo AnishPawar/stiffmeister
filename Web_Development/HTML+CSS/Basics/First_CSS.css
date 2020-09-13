@@ -3,10 +3,11 @@ h4 {color: brown}
 h1 
 {
     color: rgba(255,0,255,0.8);
-    background: pink;
-    border-color: purple;
-    border-width: 5px;
-    border-style: groove;
+    background:red;
+    /* border-color: azure;
+    border-width: 10px;    
+    border-style: dotted; */
+    border: 5px solid purple;
 }
 
 body{
